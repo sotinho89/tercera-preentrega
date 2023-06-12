@@ -1,0 +1,16 @@
+$vista:completo;
+body{
+    @if $vista == completo {
+        @media screen {min-width: 1042px; }
+        background-color: aliceblue;
+              }
+     @else if $vista == medio {
+        @media screen {max-width: 500px; }
+        background-color: rgb(207, 138, 196);
+     }   
+     @else if $vista == chico {
+        @media screen{max-width: 300px;}
+        background-color: aquamarine;
+     }      
+
+}

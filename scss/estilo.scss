@@ -1,5 +1,6 @@
 @import "var";
 @import "footer";
+@import "border";
 
 *{
     margin: 0;
@@ -15,4 +16,9 @@ header{
             border: purple 5px solid;
         }
     }
+}
+main{
+    width: $ancho *2 -100 ;
+
+
 }

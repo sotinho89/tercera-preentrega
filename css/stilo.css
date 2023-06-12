@@ -16,3 +16,6 @@ header .img {
   padding: 10 px; }
   header .img:hover {
     border: purple 5px solid; }
+
+main {
+  width: 1000px -100; }
