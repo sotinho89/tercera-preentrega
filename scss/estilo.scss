@@ -1,0 +1,18 @@
+@import "var";
+@import "footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    .img{
+        border-radius: 50%;
+        border: white 5px solid;
+        padding: 10 px;
+        &:hover{
+            border: purple 5px solid;
+        }
+    }
+}

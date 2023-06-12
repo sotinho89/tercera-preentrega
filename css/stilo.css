@@ -1,0 +1,18 @@
+footer li {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header .img {
+  border-radius: 50%;
+  border: white 5px solid;
+  padding: 10 px; }
+  header .img:hover {
+    border: purple 5px solid; }
